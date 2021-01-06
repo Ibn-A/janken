@@ -3,5 +3,12 @@
 
 <script>
 
-    
+    function computerPlay () {
+        // Array containing choices
+        const choices = ["rock","paper","scissor"];
+        // selecting random choices
+        let random_choices = choices[Math.floor(Math.random()*choices.length)];
+        console.log(random_choices);
+    }
+    computerPlay();
 </script>
